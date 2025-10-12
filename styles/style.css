@@ -358,6 +358,14 @@ flex-wrap: wrap;
 gap:24px;
 }
 
+.paragraph_one {
+  width: 688px;
+}
+
+.paragraph_two {
+ width: 693px;
+}
+
 .footer_sait {
 margin-top: 180px;
 width: 1100px;
