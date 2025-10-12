@@ -14,7 +14,7 @@ scroll-behavior: smooth;
 }
 
 .header {
-
+margin-top:0px;
 width: 1100;
 min-height: auto;
 opacity: 1;
