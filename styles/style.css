@@ -1,20 +1,25 @@
 
-/* место для вашего кода */
 header,
 section,
 footer 
 {
 
+
+
+
+
+
 margin:auto;
 
 }
+
 .jh{
 scroll-behavior: smooth;
 
 }
 
 .header {
-margin-top:0px;
+margin-top:1px;
 width: 1100;
 min-height: auto;
 opacity: 1;
