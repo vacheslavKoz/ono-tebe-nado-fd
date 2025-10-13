@@ -13,9 +13,9 @@ margin-top:0px;
 width: 1100;
 min-height: auto;
 opacity: 1;
-display:grid;
+display: grid;
 grid-template-columns: 1fr min-content 1fr ;
-align-items:center;
+align-items: center;
 padding-left: 50px;
 padding-right: 50px;
 padding-bottom: 96px;
@@ -31,12 +31,12 @@ width: 391px;
  }
 
 .header__links-list {
-display:flex;
+display: flex;
 gap: 25px;
-list-style:circle;
+list-style: circle;
 min-height: 22px;
 align-items: baseline;
-text-underline-offset:4px;
+text-underline-offset: 4px;
 }
 
 .header__links-list-item {
@@ -45,7 +45,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 18px;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing: 0;
 color: #000000;
 text-decoration: underline;
 }
@@ -66,8 +66,8 @@ width: 129.11px;
 }
 
 .address {
-justify-self:end;
-max-width:240px;
+justify-self: end;
+max-width: 240px;
 }
 
 .header__address {
@@ -80,8 +80,8 @@ font-weight: 400;
 font-style: normal;
 font-size: 18px;
 line-height: 24.3px;
-letter-spacing: 0%;
-text-underline-offset:4px;
+letter-spacing: 0;
+text-underline-offset: 4px;
 }
 
 .overlay {
@@ -90,7 +90,7 @@ text-underline-offset:4px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:black;
+  background-color: black;
   opacity: 0.6;
   z-index: 1;
 }
@@ -124,7 +124,7 @@ z-index: 3;
 }
 
 .aligned-text {
-display:block;
+display: block;
 }
 
 .aligned-text_left {
@@ -134,14 +134,14 @@ height: 115px;
 
 .aligned-text_center {
 margin-left: 330px;
-margin-top:20px;
+margin-top: 20px;
 width: 339px;
 height: 115px;
 }
 
 .aligned-text_right {
-margin-left:613px;
-margin-top:20px;
+margin-left: 613px;
+margin-top: 20px;
 width: 387px;
 height: 115px;
 }
@@ -153,9 +153,9 @@ justify-content: space-between;
 align-items: center;
 width: 1000px;
 height: 51px;
-left:50px;
-top:656px;
-bottom:50px;
+left: 50px;
+top: 656px;
+bottom: 50px;
 right: 50px;
 z-index: 5;
 }
@@ -168,17 +168,17 @@ width: 256px;
 min-height: 51px;
 margin-left: 107px;
 background-color: transparent;
-font-family:Raleway;
+font-family: Raleway;
 font-style: medium;
 font-size: 22px;
 line-height: 1em;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-align: center;
 text-transform: uppercase;
 border-width: 1px;
 border-style: solid;
 border-color: #FFFFFF;
-color:white;
+color: white;
 }
 
 .text_description {
@@ -190,13 +190,13 @@ min-height: auto;
 }
 
 .text_description_one_section {
-display:block;
+display: block;
 font-family: Raleway;
 font-weight: 400;
 font-style: normal;
 font-size: 22px;
 line-height: 28px;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-transform: uppercase;
 color: #FFFFFF;
 }
@@ -213,7 +213,7 @@ font-weight: 700;
 font-style: Bold;
 font-size: 40px;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-transform: uppercase;
 height: 47px;
 width: 121px;
@@ -222,8 +222,8 @@ margin-left: 40px;
 }
 
 .lots__card-list {
-display:flex;
-gap:25px;
+display: flex;
+gap: 25px;
 margin-top: 27px;
 margin-bottom: 30px;
 list-style-type: none;
@@ -256,11 +256,11 @@ font-weight: 700;
 font-style: Bold;
 font-size: 22px;
 line-height: 120%;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-transform: uppercase;
 text-decoration: underline;
 text-decoration-style: solid;
-text-decoration-thickness: 0%;
+text-decoration-thickness: 0;
 color: #FFFFFF;
 z-index: 3;
 }
@@ -268,10 +268,10 @@ z-index: 3;
 .card__text {
 font-family: Raleway;
 font-weight: 400;
-font-style: Regular;
+font-style: normal;
 font-size: 20px;
 line-height: 120%;
-letter-spacing: 0%;
+letter-spacing: 0;
 color: #FFFFFF;
 z-index: 3;
 }
@@ -292,7 +292,7 @@ background-repeat: no-repeat;
 
 .card_type_picture {
 background-image: url("../images/card-lot-03.jpg");
-background-size:cover;
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
@@ -303,7 +303,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 20px;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing: 0;
 margin-left: 40px;
 height: 25px;
 }
@@ -314,19 +314,19 @@ display: grid;
 grid-template-columns: 334px 1fr;
 width: 1052px;
 min-height: 595px;
-grid-column-gap:25px;
+grid-column-gap: 25px;
 }
 
 .about__logo {
-display:flex;
+display: flex;
 justify-content: center;
 align-items: center;
 background-color: #000000;
 border-radius: 120%;
 width: 240px;
 height: 240px;
-margin-top:35px;
-justify-self:center;
+margin-top: 35px;
+justify-self: center;
 }
 
 .about__logo-image {
@@ -340,10 +340,10 @@ font-weight: 700;
 font-style: Bold;
 font-size: 40px;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing: 0;
 text-transform: uppercase;
 margin-bottom: 100px;
-margin-top:133px;
+margin-top: 133px;
 }
 
 .about__text {
@@ -352,10 +352,10 @@ font-weight: 400;
 font-style: normal;
 font-size: 20px;
 line-height: 24px;
-letter-spacing: 0%;
-display:flex;
+letter-spacing: 0;
+display: flex;
 flex-wrap: wrap;
-gap:24px;
+gap: 24px;
 }
 
 .paragraph_one {
@@ -373,7 +373,7 @@ min-height: 180px;
 }
 
 .main_footer_div {
-display:flex;
+display: flex;
 }
 
 .footer_address {
@@ -381,7 +381,7 @@ margin-left: 50px;
 margin-bottom: 82px;
 width: 264px;
 min-height: auto;
-text-underline-offset:4px;
+text-underline-offset: 4px;
 }
 
 .contacts_list {
@@ -390,7 +390,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 18px;
 line-height: 24.3px;
-letter-spacing: 0%;
+letter-spacing: 0;
 list-style-type: none;
 }
 
@@ -414,7 +414,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 18px;
 line-height: 1em;
-letter-spacing: 0%;
+letter-spacing: 0;
 color: #000000;
 text-underline-offset:4px;
 list-style-type:none;
@@ -422,7 +422,7 @@ list-style-type:none;
 
 .social_list {
 display:flex;
-gap:48px;
+gap: 48px;
 min-height: 48px;
 margin-left: 177px;
 margin-bottom: 131px;
