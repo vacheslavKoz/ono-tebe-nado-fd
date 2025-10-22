@@ -49,6 +49,7 @@ list-style-type: none;
 .header__link_active .header__menu-link  {
  text-decoration: none;
   }
+  
 .header_logo {
 display: block;
 width: 148px;
@@ -169,7 +170,7 @@ display: flex;
 align-items: center;
 display: block;
 font-family: "Raleway", sans-serif;
-font-weight: 400;
+font-weight: 400 ;
 font-style: normal;
 font-size: 22px;
 line-height: 28px;
