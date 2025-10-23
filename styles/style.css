@@ -18,8 +18,10 @@ grid-template-columns: 1fr min-content 1fr ;
 align-items: center;
 padding-left: 50px;
 padding-right: 49.5px;
+/*padding-bottom: 96px;*/
+/*padding-top: 91px;*/
+padding-top: 88px;
 padding-bottom: 96px;
-padding-top: 91px;
 }
 
 
@@ -53,12 +55,15 @@ list-style-type: none;
 .header_logo {
 display: block;
 width: 148px;
-padding-left: 11.39px;
-padding-right: 12.56px;
+/*padding-left: 11.39px;
+padding-right: 12.56px;*/
+padding-left: 8px;
+padding-right: 8px;
 }
 
 .header_logo-image {
-width: 129.11px;
+/*width: 129.11px;*/
+width: 135px;
 }
 
 .address {
@@ -127,7 +132,8 @@ text-align: left;
 
 .aligned-text_center {
 text-align: center;
-line-height:160px ;
+/*line-height:160px ;*/
+line-height: 155px;
 }
 
 .aligned-text_right {
@@ -192,7 +198,8 @@ font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-style: Bold;
 font-size: 40px;
-line-height: 47px;
+/*line-height: 47px;*/
+line-height: 46px;
 letter-spacing: 0;
 text-transform: uppercase;
 color: #000000;
@@ -222,7 +229,8 @@ display: flex;
 position: relative;
 flex-direction: column;
 justify-content: space-between;
-padding-left: 41.5px;
+/*padding-left: 41.5px;*/
+padding-left: 40.5px;
 padding-right: 40px;
 padding-top: 48px;
 padding-bottom: 48px;
