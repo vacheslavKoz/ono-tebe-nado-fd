@@ -210,6 +210,7 @@ min-height: auto;
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -327,7 +328,7 @@ min-height: auto;
 }
 
 .paragraph {
-  white-space: pre-wrap;
+  /*white-space: pre-wrap;*/
   text-align: left;
 }
 
@@ -348,7 +349,8 @@ min-height: auto;
 
 .menu_footer {
   margin-left: 176px;
-  margin-top: 8px;
+  /*margin-top: 8px;*/
+  margin-top: 6px;
 }
 
 .footer_menu__link_active .footer_menu_link {
